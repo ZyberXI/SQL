@@ -4,8 +4,6 @@ select e.employee_name, s.salary from employee_salary es
 join employees e on es.employee_id = e.id 
 join salary s on es.salary_id = s.id
 
-
-
 --2. Вывести всех работников у которых ЗП меньше 2000
 
 select e.employee_name, s.salary from employee_salary es
